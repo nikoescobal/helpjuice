@@ -9,8 +9,8 @@
 
 <body>
     <nav>
-        <div class="xl:max-w-screen-2xl max-w-6xl px-28 py-12 mx-auto">
-            <div class="flex justify-between items-center">
+        <div class="xl:max-w-screen-2xl max-w-6xl xl:px-28 xl:py-12 mx-auto">
+            <div class="flex justify-between items-center py-5 px-6">
                 <!-- logo -->
                 <div>
                     <a class="flex" href="#">
@@ -18,7 +18,7 @@
                     </a>
                 </div>
                 <!-- primary nav -->
-                <div class="flex justify-between space-x-10 items-center">
+                <div class="hidden lg:flex justify-between space-x-10 items-center ">
                     <a class="text-gray-600 hover:text-gray-900 hover:underline" href="#">Home</a>
                     <a class="text-gray-600 hover:text-gray-900 hover:underline" href="#">Features</a>
                     <a class="text-gray-600 hover:text-gray-900 hover:underline" href="#">About</a>
@@ -26,7 +26,7 @@
                 </div>
 
                 <!-- secondary nav -->
-                <div class="flex items-center space-x-5">
+                <div class="hidden lg:flex items-center space-x-5">
                     <a href="#">Login</a>
 
                     <div class="flex-col items-center -translate-y-2">
@@ -38,6 +38,22 @@
                     </div>
 
                 </div>
+
+                <!-- mobile button goes here -->
+                <div class="lg:hidden flex items-center">
+                    <button class="mobile-menu-button">
+                        <img src="/mobile-menu.522af767.svg" alt="" class="self-center w-7 h-7 mx-1">
+                    </button>
+                </div>
+
+            </div>
+            <!-- mobile menu  -->
+            <div class="mobile-menu hidden lg:hidden">
+                <a class="tracking-wider block p-6 text-base hover:text-shadow duration-400 ease-in-out hover:bg-pink-200" href="">Home</a>
+                <a class="tracking-wider block p-6 text-base hover:text-shadow duration-400 ease-in-out hover:bg-pink-200" href="">Features</a>
+                <a class="tracking-wider block p-6 text-base hover:text-shadow duration-400 ease-in-out hover:bg-pink-200" href="">About</a>
+                <a class="tracking-wider block p-6 text-base hover:text-shadow duration-400 ease-in-out hover:bg-pink-200" href="">Help Center &
+                    Community</a>
             </div>
         </div>
     </nav>
@@ -50,6 +66,7 @@
         </h2>
         <h2 class="font-semibold text-base uppercase">Turn ANY process into a simple step-by step Guide</h2>
     </div>
+    <script src="/index.de158e3a.js"></script>
 <script src="/helpjuice.59712999.js"></script></body>
 
 </html>
