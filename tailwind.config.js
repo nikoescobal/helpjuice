@@ -10,7 +10,7 @@ module.exports = {
         '.text-shadow': {
           textShadow: '-0.5px 0.5px 0 purple',
           textDecoration: 'underline',
-          transitionDuration: '300ms',
+          transitionDuration: '400ms',
         },
       };
 
