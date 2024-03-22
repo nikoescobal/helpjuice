@@ -6,10 +6,25 @@
 
 @layer base {
   @font-face {
-    font-family: 'alphabetized-cassette-tapes-thin';
+    font-family: 'Alphabetized Cassette Tapes Classic';
     font-style: normal;
-    font-weight: 100;
-    font-display: optional;
-    src: url('../assets//Alphabetized Cassette Tapes Thin.ttf') format('woff2');
+    font-weight: 400;
+    src: url('../assets/Alphabetized Cassette Tapes Classic.ttf')
+      format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Alphabetized Cassette Tapes Thin';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../assets/Alphabetized Cassette Tapes Thin.ttf')
+      format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Alphabetized Cassette Tapes';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/Alphabetized Cassette Tapes.ttf') format('truetype');
   }
 }

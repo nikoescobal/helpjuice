@@ -195,11 +195,24 @@ img, video {
 }
 
 @font-face {
-  font-family: alphabetized-cassette-tapes-thin;
+  font-family: Alphabetized Cassette Tapes Classic;
   font-style: normal;
-  font-weight: 100;
-  font-display: optional;
-  src: url("Alphabetized Cassette Tapes Thin.2e6b2297.ttf") format("woff2");
+  font-weight: 400;
+  src: url("Alphabetized Cassette Tapes Classic.ec30549f.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Alphabetized Cassette Tapes Thin;
+  font-style: normal;
+  font-weight: 300;
+  src: url("Alphabetized Cassette Tapes Thin.2e6b2297.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Alphabetized Cassette Tapes;
+  font-style: normal;
+  font-weight: 400;
+  src: url("Alphabetized Cassette Tapes.6d40f138.ttf") format("truetype");
 }
 
 *, :before, :after, ::backdrop {
@@ -289,6 +302,10 @@ img, video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
 }
 
 .mr-2 {
@@ -502,6 +519,26 @@ img, video {
   text-align: center;
 }
 
+.font-alphabetized-cassette-tapes-thin {
+  font-family: Alphabetized Cassette Tapes Thin, sans-serif;
+}
+
+.font-mulish {
+  font-family: Mulish, sans-serif;
+}
+
+.font-alphabetized-cassette-tapes {
+  font-family: Alphabetized Cassette Tapes, sans-serif;
+}
+
+.font-plus-jakarta-sans {
+  font-family: Plus Jakarta Sans, sans-serif;
+}
+
+.font-open-sans {
+  font-family: Open Sans, sans-serif;
+}
+
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
@@ -512,9 +549,14 @@ img, video {
   line-height: 1.5rem;
 }
 
-.text-sm {
-  font-size: .875rem;
-  line-height: 1.25rem;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -535,6 +577,10 @@ img, video {
 
 .capitalize {
   text-transform: capitalize;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .tracking-wider {
