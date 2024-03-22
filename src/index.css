@@ -28,3 +28,16 @@
     src: url('../assets/Alphabetized Cassette Tapes.ttf') format('truetype');
   }
 }
+
+.custom-gradient {
+  background-image: linear-gradient(
+    to right,
+    #f0fbb9 0%,
+    #fbb3a0 10%,
+    #bfa2fd 60%,
+    #a4d0fc,
+    #9fe9e2 90%,
+    #9fface
+  );
+  opacity: 0.7;
+}
