@@ -3,6 +3,9 @@ module.exports = {
   content: ['./src/**/*.{html,js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      scale: {
+        '.42': '.42',
+      },
       animation: {
         blob: 'blob 7s infinite',
       },
