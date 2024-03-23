@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        inter: ['Inter', 'sans-serif'],
         mulish: ['Mulish', 'sans-serif'],
         'open-sans': ['Open Sans', 'sans-serif'],
         'plus-jakarta-sans': ['Plus Jakarta Sans', 'sans-serif'],

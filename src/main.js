@@ -1,9 +1,17 @@
-// grab everything you need
-
-const btn = document.querySelector('button.mobile-menu-button');
+// Declaring variables
+const btnOpen = document.querySelector('button.mobile-menu-button-open');
+const btnClose = document.querySelector('button.mobile-menu-button-close');
 const menu = document.querySelector('.mobile-menu');
 
-// add event listeners
-btn.addEventListener('click', () => {
+// Adding event listeners
+btnOpen.addEventListener('click', () => {
   menu.classList.toggle('hidden');
+  btnClose.classList.remove('hidden');
+  btnOpen.classList.add('hidden');
+});
+
+btnClose.addEventListener('click', () => {
+  menu.classList.toggle('hidden');
+  btnClose.classList.add('hidden');
+  btnOpen.classList.remove('hidden');
 });
