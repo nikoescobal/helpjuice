@@ -9,9 +9,9 @@
 
 <body class="wrapper overflow-x-hidden">
     <!-- header -->
-    <header class="xl:px-6">
-        <div class="xl:max-w-screen-2xl max-w-6xl xl:px-28 xl:py-12 mx-auto">
-            <div class="flex justify-between items-center py-5 px-6">
+    <header class="w-full max-w-[1512px] mx-auto">
+        <div class="xl:max-w-screen-2xl max-w-6xl xl:pt-12 mx-auto px-6 xl:px-[7.25rem] lg:pt-10 lg:px-8">
+            <div class="flex justify-between items-center py-5 lg:py-0">
                 <!-- logo -->
                 <div>
                     <a class="flex" href="#">
@@ -73,31 +73,49 @@
             </div>
             <!-- mobile menu  -->
             <div class="mobile-menu hidden lg:hidden">
-                <a class="tracking-wider block p-6 text-base hover:text-shadow duration-400 ease-in-out underline hover:bg-pink-200"
+                <a class="tracking-wider block p-6 text-base hover:text-shadow duration-400 ease-in-out underline text-[#4F4F4F] hover:bg-pink-200 border-t-2"
                     href="">Home</a>
-                <a class="tracking-wider block p-6 text-base hover:text-shadow duration-400 ease-in-out hover:bg-pink-200"
+                <a class="tracking-wider block p-6 text-base hover:text-shadow duration-400 ease-in-out hover:bg-pink-200 opacity-60"
                     href="">Features</a>
-                <a class="tracking-wider block p-6 text-base hover:text-shadow duration-400 ease-in-out hover:bg-pink-200"
+                <a class="tracking-wider block p-6 text-base hover:text-shadow duration-400 ease-in-out hover:bg-pink-200 opacity-60"
                     href="">About</a>
-                <a class="tracking-wider block p-6 text-base hover:text-shadow duration-400 ease-in-out hover:bg-pink-200"
+                <a class="tracking-wider block p-6 text-base hover:text-shadow duration-400 ease-in-out hover:bg-pink-200 opacity-60"
                     href="">Help Center & Community</a>
+                <a class="tracking-wider block p-6 text-base hover:text-shadow duration-400 ease-in-out hover:bg-pink-200 opacity-60 border-b-2"
+                    href="">Login</a>
+                <div class="flex flex-col justify-center items-center pb-60">
+                    <a href="#"
+                        class="bg-black hover:bg-opacity-90 hover:text-yellow-500 transition duration-500 rounded-xl text-white p-3 gap-2 inline-flex items-baseline justify-center w-52 font-mulish font-bold cursor-pointer mt-8">
+                        <img src="../assets/chrome-icon.svg" alt="" class="self-center w-6 h-6 rounded-full" />
+                        Install Wizardshot
+                    </a>
+                    <div class="font-alphabetized-cassette-tapes text-base text-center pt-1">100% free,
+                        forever 🤑
+                    </div>
+
+                </div>
             </div>
-        </div>
     </header>
 
-    <main class="px-6">
+    <main class="w-full max-w-[1512px] mx-auto">
         <!-- hero content goes here -->
-        <section class="py-16 text-wrap justify-center text-center flex-col">
+        <section class="py-16 text-wrap justify-center text-center flex-col px-6 lg:px-8">
             <h1
-                class="font-plus-jakarta-sans font-extrabold px-2 text-4xl lg:max-w-[50rem] lg:leading-tight mx-auto lg:text-6xl">
+                class="font-plus-jakarta-sans font-extrabold text-[2.5rem] mx-auto leading-tight lg:max-w-[49rem] lg:leading-tight lg:text-[58px]">
                 Your Magic Wand for Instant Documentation
             </h1>
-            <p class="font-open-sans font-semibold text-base uppercase my-4">Turn ANY process into a simple step-by step
-                Guide</p>
+            <p
+                class="break-normal font-open-sans font-semibold text-xl lg:text-base items-center justify-center uppercase my-4 lg:mt-2.5 lg:mb-[34px] opacity-60">
+                Turn ANY process into a simple step-by step Guide
+            </p>
+            <div>
+
+            </div>
             <a href="#"
-                class="bg-black hover:bg-opacity-90 hover:text-yellow-500 mb-12 transition cursor-pointer duration-500 rounded-xl text-white py-3 px-5 inline-flex items-center font-bold font-mulish">
+                class="bg-black hover:bg-opacity-90 hover:text-yellow-500 mb-12 pl-6 transition cursor-pointer duration-500 rounded-xl text-white py-2.5 max-w-full mx-auto whitespace-nowrap inline-flex items-center font-bold text-sm font-mulish">
                 Install Wizardshot
-                <img src="../assets/arrow-narrow-right.svg" alt="" class="self-center cursor-pointer w-6 h-6 mx-2" />
+                <img src="../assets/arrow-narrow-right.svg" alt=""
+                    class="self-center cursor-pointer w-6 h-6 ml-2 mr-6" />
             </a>
 
             <!-- <video src="#"></video> Should be used but since there's no video link I will use image for now -->
@@ -107,7 +125,7 @@
                     <!-- class="relative inline-flex justify-center rounded-2xl py-2 px-2.5 bg-gradient-to-b from-purple-500 via-indigo-500 to-pink-400 "> -->
                     <img class="absolute -top-7 -left-2" src="../assets/curved-arrow.svg" alt="curved arrow">
                     <img src="../assets/hero-background.png" alt="hero-background">
-                    <img class="absolute top-0 ring-0 -z-10 xl:-top-[10rem] xl:scale-105 xl:-right-[12rem]"
+                    <img class="absolute top-0 right-0 -z-10 xxl:-top-[10rem] xxl:-right-[12rem]"
                         src="../assets/background-lines.svg" alt="background lines">
                     <p class="font-mulish italic font-bold text-base absolute capitalize -top-[3.15rem] left-4 w-52">
                         It only takes 3 clicks to publish your first tutorial</p>
@@ -116,19 +134,50 @@
         </section>
 
         <!-- mid section -->
-        <section class="flex-col justify-center px-20 mx-auto mt-5">
-            <h2 class="font-plus-jakarta-sans font-extrabold text-center text-3xl text-wrap mx-auto max-w-[38rem]">Say
+        <section class="flex-col justify-center lg:px-20 mx-auto mt-5 lg:mt-10 px-6">
+            <h2
+                class="font-plus-jakarta-sans font-extrabold text-center text-[2rem] leading-10 lg:text-[2.5rem] lg:leading-[2.75rem] text-wrap mx-auto max-w-[38rem] lg:min-w-[50rem]">
+                Say
                 <span class="underline">Goodbye</span>
                 <span class="underline underline-offset-[5px]">
                     To Writing Docs
                 </span>,
                 and Hello To Wizardshot Doing it for YOU.
             </h2>
+
+            </div>
             <div
-                class="text-center mx-auto max-w-screen-2xl grid place-items-center grid-cols-1 lg:grid-cols-3 my-10 gap-2 xl:gap-0">
-                <figure>
+                class="text-center mx-auto max-w-[1150px] relative justify-items-center grid place-items-center grid-cols-1 xl:grid-cols-3 my-10 xl:gap-0">
+                <figure class="flex flex-col items-center">
+                    <!-- left and right border -->
+                    <div
+                        class="hidden xxl:flex absolute top-36 left-[25rem] z-20 border-[#AB96F8] border-dashed border-[1px] border-t-0 w-[21.75rem] h-[8rem]">
+                        <!-- Left circle -->
+                        <div
+                            class="hidden xxl:flex text-transparent absolute -top-1 -left-12 z-20 bg-white border rounded-[50%] h-2 w-2 border-[#AB96F8]">
+                            1</div>
+                        <!-- top left and right outward custom border -->
+                        <div
+                            class="hidden text-transparent xxl:flex absolute top-21 -left-[2.65rem] z-20 border-[#AB96F8] border-dashed border-[1px] border-b-0 border-l-0 border-r-0 w-[2.6rem] h-[8rem]">
+                            1
+                        </div>
+                        <div
+                            class="hidden text-transparent xxl:flex absolute top-21 -right-[2.65rem] z-20 border-[#AB96F8] border-dashed border-[1px] border-b-0 border-l-0 border-r-0 w-[2.6rem] h-[8rem]">
+                            1
+                        </div>
+                        <!-- Middle circle -->
+                        <div
+                            class="hidden xxl:flex absolute top-[7.75rem] left-[10.25rem] z-20 bg-white border rounded-[50%] h-2 w-2 text-transparent border-[#AB96F8]">
+                            1
+                        </div>
+                        <!-- Right circle -->
+                        <div
+                            class="hidden xxl:flex absolute -top-1 -right-12 z-20 bg-white border rounded-[50%] h-2 w-2 text-transparent border-[#AB96F8]">
+                            1
+                        </div>
+                    </div>
                     <div class="flex items-center justify-center">
-                        <div class="relative w-full max-w-xl">
+                        <div class="relative w-full">
                             <div
                                 class="absolute top-5 left-10 w-24 h-52 bg-[#44FF9A] rounded-full mix-blend-multiply filter blur-2xl opacity-50 animate-blob">
                             </div>
@@ -145,7 +194,7 @@
                                 class="absolute right-10 w-24 h-64 bg-[#EBFF70] rounded-full mix-blend-multiply filter blur-2xl opacity-50 animate-blob animation-delay-4000">
                             </div>
                             <div class="m-8 relative space-y-4">
-                                <div class="w-72 h-72">
+                                <div class="w-72">
                                     <img src="../assets/category-card-1.png" alt="Description of the image">
 
                                 </div>
@@ -153,14 +202,13 @@
                         </div>
                     </div>
 
-                    <figcaption class="flex-col text-left justify-center font-open-sans">
-                        <h3 class="text-lg font-semibold">1. Click Capture</h3>
+                    <figcaption class="flex-col text-left justify-center font-open-sans px-10">
+                        <h3 class="text-lg font-semibold lg:pt-10">1. Click Capture</h3>
                         <p class="text-sm max-w-96 lg:max-w-[19rem]">Once you install the Chrome extension, fire it
-                            up, and click
-                            “Capture”.</p>
+                            up, and click “Capture”.</p>
                     </figcaption>
                 </figure>
-                <figure>
+                <figure class="flex flex-col items-center">
                     <div class="flex items-center justify-center">
                         <div class="relative w-full">
                             <div
@@ -179,7 +227,7 @@
                                 class="absolute top-20 lg:-top-2 right-10 w-24 h-40 lg:h-60 bg-[#EBFF70] rounded-full mix-blend-multiply filter blur-2xl opacity-50 animate-blob animation-delay-4000">
                             </div>
                             <div class="m-8 relative space-y-4">
-                                <div class="w-72 h-72">
+                                <div class="w-72">
                                     <img src="../assets/category-card-2.png" alt="Description of the image">
 
                                 </div>
@@ -187,13 +235,13 @@
                         </div>
                     </div>
 
-                    <figcaption class="flex-col text-left justify-center font-open-sans">
-                        <h3 class="text-lg font-semibold">2. Perform Your Actions</h3>
+                    <figcaption class="flex-col text-left justify-center font-open-sans px-10">
+                        <h3 class="text-lg font-semibold lg:pt-10">2. Perform Your Actions</h3>
                         <p class="text-sm max-w-96 lg:max-w-80">Once capturing, Wizardshot carefully monitors what
                             you do to understand how to document it.</p>
                     </figcaption>
                 </figure>
-                <figure>
+                <figure class="flex flex-col items-center">
                     <div class="flex items-center justify-center">
                         <div class="relative w-full">
                             <div
@@ -212,7 +260,7 @@
                                 class="absolute top-12 right-12 w-32 h-52 bg-[#EBFF70] rounded-full mix-blend-multiply filter blur-2xl opacity-60 animate-blob animation-delay-4000">
                             </div>
                             <div class="m-8 relative space-y-4">
-                                <div class="w-72 h-72">
+                                <div class="w-72">
                                     <img src="../assets/category-card-3.png" alt="Description of the image">
 
                                 </div>
@@ -220,8 +268,8 @@
                         </div>
                     </div>
 
-                    <figcaption class="flex-col text-left justify-center font-open-sans">
-                        <h3 class="text-lg font-semibold">3. ✅ Done. Article Written</h3>
+                    <figcaption class="flex-col text-left justify-center font-open-sans px-10">
+                        <h3 class="text-lg font-semibold lg:pt-10">3. ✅ Done. Article Written</h3>
                         <p class="text-sm max-w-96 lg:max-w-80">Wizardshot carefully crafts the perfect article based
                             off your actions recorded. Just click “Done” and we’ll write up the article in a second.</p>
                     </figcaption>
@@ -229,62 +277,75 @@
             </div>
             </div>
 
-            <div class="relative flex-col text-center justify-center items-center font-plus-jakarta-sans font-bold">
+            <div
+                class="mt-12 relative flex-col text-center justify-center items-center font-plus-jakarta-sans font-bold">
                 <h6 class="text-3xl underline underline-offset-[6px] decoration-1">+32 MORE FEATURES</h6>
                 <h6 class="text-lg">INCLUDING A KB INTEGRATION</h6>
-                <img class="absolute md:bottom-20 top-32 -right-10 lg:right-[23rem]" src="../assets/face.svg"
+                <img class="absolute md:bottom-20 top-9 lg:top-32 -right-4 lg:right-[23rem]" src="../assets/face.svg"
                     alt="face button">
             </div>
         </section>
         <!-- Call to Action section  -->
-        <section class="flex flex-col text-center justify-center my-40 items-center">
+        <section class="flex flex-col text-center justify-center lg:my-40 items-center px-6 lg:px-8">
             <mark
-                class="scale-90 md:scale-100 flex h-8 gap-2 md:gap-3 lg:gap-6 custom-gradient text-gray-900 mt-7 mb-10">
+                class="flex h-3.5 lg:h-8 gap-2 md:gap-3 lg:gap-6 custom-gradient text-gray-900 mt-12 mb-16 w-full max-w-[374.5px] lg:max-w-[626px] mx-auto justify-center">
 
-                <div class="flex items-center gap-[2px] tracking-tight md:tracking-normal space-x-1 md:space-x-2">
+                <div class="flex items-center lg:gap-[2px] tracking-tight md:tracking-normal space-x-3 md:space-x-2">
                     <h3
-                        class=" -translate-y-1 -translate-x-3 underline underline-offset-8 decoration-2 font-plus-jakarta-sans text-lg lg:text-[40px]">
+                        class="-translate-y-0.5 lg:-translate-y-[6.5px] -translate-x-[8px] lg:-translate-x-[10px] underline underline-offset-[6px] decoration-1 lg:decoration-2 font-plus-jakarta-sans text-[21px] leading-7 lg:text-[40px]">
                         Free
                     </h3>
-                    <div class="flex-col -translate-y-1 text-left">
+                    <div class="flex-col -translate-y-0.5 -translate-x-3 text-left leading-3 text-[8px]">
                         <p>Free</p>
                         <p>Forever</p>
                     </div>
                 </div>
-                <div class="flex items-center gap-[2px] tracking-tight md:tracking-normal space-x-1 md:space-x-2">
+                <div class="flex items-center gap-[2px] tracking-tight md:tracking-normal space-x-3 md:space-x-2">
                     <h3
-                        class="underline underline-offset-8 decoration-2  font-plus-jakarta-sans text-lg  lg:text-[40px]">
+                        class="-translate-y-[1px] underline underline-offset-[6px] decoration-1 lg:decoration-2 font-plus-jakarta-sans text-[21px] leading-7 lg:text-[40px]">
                         Unlimited
                     </h3>
-                    <div class="flex-col -translate-y-1 text-left">
+                    <div class="flex-col -translate-y-[1px] text-left leading-3 text-[8px]">
                         <p>Tutorial</p>
                         <p>Creation</p>
                     </div>
                 </div>
-                <div class="flex items-center gap-[2px] tracking-tighter md:tracking-normal space-x-1 md:space-x-2">
+                <div class="flex items-center gap-[2px] tracking-tighter md:tracking-normal space-x-3 md:space-x-2">
                     <h3
-                        class="underline underline-offset-8 decoration-2  font-plus-jakarta-sans text-lg lg:text-[40px]">
+                        class="underline underline-offset-[6px] decoration-1 lg:decoration-2 font-plus-jakarta-sans text-[21px] leading-7 lg:text-[40px]">
                         Powerful
                     </h3>
-                    <div class="flex-col -translate-y-1 text-left translate-x-2">
+                    <div class="flex-col -translate-y-[1px]  text-left translate-x-[7px] leading-3 text-[8px]">
                         <p>Editor &</p>
                         <p>Integrations</p>
                     </div>
                 </div>
             </mark>
-            <div class="border-4 border-black pt-8 px-7 pb-8 relative rounded-lg min-h-[430px]">
-                <h2 class="font-plus-jakarta-sans text-4xl leading-tigher font-bold">Create A Detailed Tutorial In Less
-                    Than 3 Clicks
+            <div
+                class="border-4 border-black pt-8 px-6 lg:px-8 pb-8 relative rounded-lg min-h-[430px] lg:min-w-[54rem]">
+                <h2
+                    class="mb-7 font-plus-jakarta-sans text-[2rem] font-extrabold lg:max-w-[32rem] lg:text-[2.5rem] leading-[2.75rem] mx-auto">
+                    Create A Detailed Tutorial In Less Than 3 Clicks
                 </h2>
-                <img class="-top-11 right-4 absolute" src="../assets/rainbow-arrow.svg" alt="rainbow arrow">
-                <a href="#"
-                    class="bg-black mt-7 mb-14 hover:bg-opacity-90 text-2xl cursor-pointer hover:text-yellow-500 transition duration-500 rounded-xl text-white p-6 inline-flex items-center w-52 font-mulish justify-center min-w-80 gap-2">
-                    <img src="../assets/chrome-icon.svg" alt=""
-                        class="self-center w-8 h-8 text-2xl rounded-full mx-1 mr-2" />
-                    Install Wizardshot
-                </a>
+                <img class="-top-11 right-3 absolute lg:hidden" src="../assets/rainbow-arrow.svg" alt="rainbow arrow">
+                <img class="-top-20 right-12 absolute lg:block" src="../assets/rainbow-arrow-big.svg"
+                    alt="rainbow arrow">
+                <div class="relative group">
+                    <div
+                        class="absolute w-80 lg:w-[25rem] mx-auto -inset-3 bg-gradient-to-r from-green-300 via-purple-500 to-yellow-200 rounded-lg blur opacity-55 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt">
+                    </div>
+                    <a href="#"
+                        class="relative bg-black hover:bg-opacity-90 text-2xl lg:text-[2rem] lg:leading-10 cursor-pointer group-hover:text-yellow-500 transition duration-200 rounded-xl text-white p-[27px] inline-flex items-center font-mulish justify-center gap-2">
+                        <img src="../assets/chrome-icon.svg" alt=""
+                            class="self-center w-8 h-8 text-2xl rounded-full mx-1 mr-2" />
+                        Install Wizardshot
+                    </a>
+
+                </div>
+
                 <div class="text-sm">
-                    <p class="font-plus-jakarta-sans font-extrabold">"Has Helped Us Write Help Docs 100x Faster</p>
+                    <p class="mt-14 font-plus-jakarta-sans font-extrabold">"Has Helped Us Write Help Docs 100x Faster
+                    </p>
                     <p class="font-plus-jakarta-sans">- Dany River, Cartier Informatie</p>
                     <img class="mx-auto mt-2" src="../assets/rating.svg" alt="Star Ratings">
                 </div>
@@ -292,147 +353,177 @@
         </section>
 
         <!-- FAQ Accordion Section built with just Tailwind and HTML since the goal was to use Tailwind I thought I might as well :D -->
-        <section class="flex flex-col items-center justify-center mt-20 mb-60">
-            <h2 class="font-plus-jakarta-sans text-3xl font-extrabold
-mb-4">Common Questions</h2>
+        <section class="flex flex-col items-center justify-center mt-20 mb-[4.25rem] px-6 lg:px-8">
+            <h2 class="font-plus-jakarta-sans text-[2rem] leading-10 font-extrabold mb-4">Common Questions</h2>
             <div class="relative max-w-[800px] space-y-4 w-full mx-auto">
                 <input type="checkbox" class="absolute peer opacity-0" id="input0">
                 <label for="input0"
-                    class="max-h-full p-2 mx-8 font-inter font-medium text-base flex items-center cursor-pointer transition-colors duration-300 peer-checked:font-extrabold">What
-                    is Wizardshot?</label>
-                <div class="absolute top-3 right-10 rotate-0 peer-checked:rotate-180 duration-200 pointer-events-none">
-                    <svg class="rotate-0 peer-checked:rotate-180 transition-transform duration-200 ease-in-out peer-checked:font-extrabold"
+                    class="max-h-full py-2 ml-7 font-inter font-medium text-base flex items-center cursor-pointer transition-colors duration-300 peer-checked:font-bold">
+                    What is Wizardshot?</label>
+                <div class="absolute top-3 right-6 rotate-0 peer-checked:rotate-180 duration-200 pointer-events-none">
+                    <svg class="rotate-0 peer-checked:rotate-180 transition-transform duration-200 ease-in-out peer-checked:font-bold"
                         width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <svg class="rotate-0 peer-checked:font-extrabold peer-checked:rotate-180 transform duration-500 pointer-events-none "
+                        <svg class="rotate-0 peer-checked:font-bold peer-checked:rotate-180 transform duration-500 pointer-events-none "
                             width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M12 10L8 6L4 10" stroke="#0F172A" stroke-width="1.33333" stroke-linecap="round"
                                 stroke-linejoin="round" />
                         </svg>
                 </div>
                 <div
-                    class="max-h-0 overflow-hidden transition-max-height duration-200 ease-in-out peer-checked:max-h-[400px] border-t border-gray-200">
-                    <p class="pt-8 pb-4 px-[40px] text-sm">The costs to run a service is really inexpensive as most of
-                        the
-                        processing happens in the Chrome extension.
+                    class="max-h-0 overflow-hidden mx-7 transition-max-height duration-200 ease-in-out peer-checked:max-h-[400px] border-b border-gray-200">
+                    <p class="pb-4 text-sm">
+                        Wizardshot is a web app & chrome extension that allows you to create step-by-step tutorials
+                        simply by capturing your screen.
                     </p>
+                </div>
+            </div>
+            <div class="relative max-w-[800px] space-y-4 w-full mx-auto">
+                <input type="checkbox" class="absolute peer opacity-0" id="input1">
+                <label for="input1"
+                    class="max-h-full py-2 ml-7 font-inter font-medium text-base flex items-center cursor-pointer transition-colors duration-300 peer-checked:font-bold">
+                    How is Wizardshot Free?</label>
+                <div class="absolute top-3 right-6 rotate-0 peer-checked:rotate-180 duration-200 pointer-events-none">
+                    <svg class="rotate-0 peer-checked:rotate-180 transition-transform duration-200 ease-in-out peer-checked:font-bold"
+                        width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="rotate-0 peer-checked:font-bold peer-checked:rotate-180 transform duration-500 pointer-events-none "
+                            width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 10L8 6L4 10" stroke="#0F172A" stroke-width="1.33333" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                </div>
+                <div
+                    class="max-h-0 overflow-hidden mx-7 transition-max-height duration-200 ease-in-out peer-checked:max-h-[400px] border-b border-gray-200">
+                    <p class="pb-4 text-sm">The costs to run a service is really inexpensive as most of the
+                        processing happens in the Chrome extension.
+                        <br>
+                        <br>
+
+                        Really - all that we have to pay for is <u>super-secure hosting</u>, <u>awesome 24/7
+                            support</u>, and that’s
+                        it.
+                        <br>
+                        <br>
+                        <span class="font-semibold">
+                            We built Wizardshot as a stand-alone product with a deep <u>Helpjuice Knowledge
+                                Base</u> integration.
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="relative max-w-[800px] space-y-4 w-full mx-auto">
+                <input type="checkbox" class="absolute peer opacity-0" id="input2">
+                <label for="input2"
+                    class="max-h-full py-2 ml-7 font-inter font-medium text-base flex items-center cursor-pointer transition-colors duration-300 peer-checked:font-bold">
+                    Is my data secure?</label>
+                <div class="absolute top-3 right-6 rotate-0 peer-checked:rotate-180 duration-200 pointer-events-none">
+                    <svg class="rotate-0 peer-checked:rotate-180 transition-transform duration-200 ease-in-out peer-checked:font-bold"
+                        width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="rotate-0 peer-checked:font-bold peer-checked:rotate-180 transform duration-500 pointer-events-none "
+                            width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 10L8 6L4 10" stroke="#0F172A" stroke-width="1.33333" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                </div>
+                <div
+                    class="max-h-0 overflow-hidden mx-7 transition-max-height duration-200 ease-in-out peer-checked:max-h-[400px] border-b border-gray-200">
+                    <p class="pb-4 text-sm">
+                        Yes, it's 100% secure as we don't store any data on our servers.
+                    </p>
+                </div>
+                <div
+                    class="font-mulish font-bold items-center text-sm justify-center md:justify-between mx-7 pt-5 max-w-[800px] flex flex-col md:flex-row">
+                    <div class="pb-2">Curious To Learn More?</div>
+                    <a href="#"
+                        class="bg-black hover:bg-opacity-90 hover:text-yellow-500 transition duration-500 rounded-xl text-white py-2.5 px-6 cursor-pointer">
+                        Visit Help & Community Center
+                    </a>
                 </div>
             </div>
             </div>
             <div>
-                <div class="relative max-w-[800px] space-y-4 w-full mx-auto">
-                    <input type="checkbox" class="absolute peer opacity-0" id="input1">
-                    <label for="input1"
-                        class="max-h-full p-2 mx-8 font-inter font-medium text-base flex items-center cursor-pointer transition-colors duration-300 peer-checked:font-extrabold">How
-                        is Wizardshot Free?</label>
-                    <div
-                        class="absolute top-3 right-10 rotate-0 peer-checked:rotate-180 duration-200 pointer-events-none">
-                        <svg class="rotate-0 peer-checked:rotate-180 transition-transform duration-200 ease-in-out peer-checked:font-extrabold"
-                            width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <svg class="rotate-0 peer-checked:font-extrabold peer-checked:rotate-180 transform duration-500 pointer-events-none "
-                                width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12 10L8 6L4 10" stroke="#0F172A" stroke-width="1.33333" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
-                    </div>
-                    <div
-                        class="max-h-0 overflow-hidden transition-max-height duration-200 ease-in-out peer-checked:max-h-[400px]  border-t border-gray-200">
-                        <p class="pt-8 pb-4 px-[40px] text-sm">Wizardshot is a web app & chrome extension that allows
-                            you to
-                            create step-by-step tutorials simply by capturing your screen.
-                        </p>
-                        <p class="pt-8 pb-4 px-[40px] text-sm">Really - all that we have to pay for is super-secure
-                            hosting,
-                            awesome 24/7 support and that’s it.
-                        </p>
-                    </div>
+        </section>
+        <!-- Create Tutorials Section -->
+        <section class="w-full relative xl:max-w-screen-2xl mx-auto px-6 lg:px-8">
+            <div class="xl:max-w-[1136px] mx-auto">
+                <div class="font-alphabetized-cassette-tapes text-base text-right pb-1 pr-2.5">100% free,
+                    forever 🤑
                 </div>
+                <div class="text-[#F9FAFB]">
+                    <div
+                        class="lg:flex lg:flex-row items-center h-full max-h-[215px] bg-black rounded-t-lg py-8 px-4 lg:px-12 mx-auto xl:max-w-[1136px] font-mulish ">
 
-                <div class="relative max-w-[800px] space-y-4 w-full mx-auto">
-                    <input type="checkbox" class="absolute peer opacity-0" id="input2">
-                    <label for="input2"
-                        class="max-h-full p-2 mx-8 font-inter font-medium text-base flex items-center cursor-pointer transition-colors duration-300 peer-checked:font-extrabold">Is
-                        my data secure?</label>
-                    <div
-                        class="absolute top-3 right-10 rotate-0 peer-checked:rotate-180 duration-200 pointer-events-none">
-                        <svg class="rotate-0 peer-checked:rotate-180 transition-transform duration-200 ease-in-out peer-checked:font-extrabold"
-                            width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <svg class="rotate-0 peer-checked:font-extrabold peer-checked:rotate-180 transform duration-500 pointer-events-none "
-                                width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12 10L8 6L4 10" stroke="#0F172A" stroke-width="1.33333" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
-                    </div>
-                    <div
-                        class="max-h-0 overflow-hidden transition-max-height duration-200 ease-in-out peer-checked:max-h-[400px] border-t border-gray-200">
-                        <p class="pt-8 px-[40px] text-sm">It's 100% secure.
-                        </p>
-                    </div>
-                    <div class="items-center justify-between pt-10 max-w-[800px] lg:flex">
-                        <div class="pl-10 pr-5 lg:pr-0">Curious To Learn More?</div>
+                        <div class="flex flex-col">
+                            <h2 class="text-2xl font-medium whitespace-nowrap">Create Tutorials in 3 Clicks.
+                            </h2>
+                            <p class="text-sm pt-2.5 opacity-60">
+                                With WizardShot, You Click Capture, And We’ll Capture What’s Happening on Your Screen
+                                And
+                                Turn It Into A Tutorial.
+                            </p>
+                        </div>
                         <a href="#"
-                            class="bg-black hover:bg-opacity-90 mr-10 hover:text-yellow-500 transition duration-500 rounded-xl text-white py-3 px-5 inline-flex items-center max-w-72 min-w-64 whitespace-nowrap justify-center font-mulish font-bold cursor-pointer">
-                            Visit Help & Community Center
+                            class="relative w-full my-6 text-white text-xl flex items-center gap-2 justify-end underline underline-offset-4">
+                            Try Wizardshot
+                            <img class="w-[15px] h-2" src="../assets/white-arrow.svg" alt="white arrow">
+                            <div
+                                class="absolute -top-2 lg:-top-3 right-36 w-6 h-16 lg:w-10 lg:h-12 bg-[#44FF9A] rounded-full opacity-75 filter blur-2xl  animate-tilt">
+                            </div>
+                            <div
+                                class="absolute -top-2 lg:-top-3 right-24 w-6 h-16 lg:w-10 lg:h-12 bg-[#44B0FF] rounded-full opacity-75 filter blur-2xl  animate-tilt">
+                            </div>
+                            <div
+                                class="absolute -top-2 lg:-top-3 right-16 w-6 h-16 lg:w-10 lg:h-12 bg-[#8B44FF] rounded-full opacity-75 filter blur-2xl  animate-tilt animation-delay-4000">
+                            </div>
+                            <div
+                                class="absolute -top-2 lg:-top-3 right-10 w-6 h-16 lg:w-10 lg:h-12 bg-[#FF6644] rounded-full opacity-75 filter blur-2xl  animate-tilt animation-delay-2000">
+                            </div>
+                            <div
+                                class="absolute -top-2 lg:-top-3 right-4 w-6 h-16 lg:w-10 lg:h-12 bg-[#EBFF70] rounded-full opacity-75 filter blur-2xl  animate-tilt animation-delay-4000">
+                            </div>
                         </a>
                     </div>
                 </div>
+            </div>
+
         </section>
+        <div
+            class="xl:border-[3px] border rounded-b-3xl relative bottom-0 mx-1.5 flex border-black xl:max-w-[1250px] lg:mx-auto mb-12 lg:mb-20">
+        </div>
     </main>
     <!-- Section before footer -->
-    <section class="w-full relative xl:max-w-screen-2xl mx-auto mb-24">
-        <div class="border-2 flex absolute bottom-0  w-full border-black xl:max-w-[1620px] mx-auto">
-        </div>
 
-        <div class="px-6 -mt-[6.5rem]">
-            <div class="font-alphabetized-cassette-tapes text-base text-right pb-1">100% free,
-                forever 🤑
-            </div>
-            <div class="text-white">
-                <div class="mb-10 flex-col rounded-t-2xl py-8 px-12 bg-black  mx-auto justify-center items-center">
-                    <h2 class="font-mulish text-2xl font-medium">Create Tutorials in 3 Clicks.</h2>
-                    <p class="text-[#F9FAFB] pt-2.5 pb-6">With WizardShot, You Click Capture, And We’ll Capture What’s
-                        Happening on Your Screen And Turn It Into A Tutorial.</p>
-                </div>
-            </div>
-        </div>
 
-    </section>
-
-    <footer class="px-12 flex flex-col justify-center">
-        <div class="gap-10 xl:gap-20 grid lg:flex justify-around mb-20 place-items-center items-baseline">
+    <footer class="w-full max-w-[1512px] mx-auto flex flex-col">
+        <div class="mb-8 px-12 lg:px-14 lg:grid grid-cols-3 place-items-baseline items-baseline justify-items-center">
             <!-- Upper Footer Section -->
             <section class="relative">
-                <div class="flex-col -mt-12 pr-24">
+                <div>
                     <a class="flex" href="#">
-                        <img src="../assets/bigger-logo.svg" alt="" class="self-center rounded-full mx-1" />
+                        <img src="../assets/bigger-logo.svg" alt="" class="self-center rounded-full" />
                     </a>
-                    <p class="pl-2 font-mulish font-semibold w-72 text-lg mt-6">Turn complex process into a simple
-                        step-by
-                        step
-                        Guide
+                    <p class="font-mulish font-semibold w-72 text-lg mt-6">
+                        Turn complex process into a simple step-by step Guide
                     </p>
 
-                    <div class="scale-[.42] absolute -left-20 top-20">
-                        <div class="text-gray-900 flex items-center justify-start ">
+                    <div class="absolute -left-[5.6rem] top-20">
+                        <div class="text-gray-900 scale-.42 flex items-center justify-start ">
                             <div class="grid grid-cols-2 text-center">
                                 <div class="bg-white p-3 border-8 border-r-0 border-black">
-                                    <h2 class="font-mulish font-extrabold text-6xl">12</h2>
-                                    <h3 class="font-jakarta-plus-sans font-black text-3xl">YEARS</h3>
+                                    <h2 class="font-mulish font-blacker text-7xl scale-110">12</h2>
+                                    <h3 class="font-jakarta-plus-sans font-extrabold mt-2 text-xl scale-150">YEARS
+                                    </h3>
                                 </div>
-                                <div class="row-span-1 bg-white p-4 border-8 border-black">
-                                    <h2 class="font-mulish font-extrabold text-xl">BUILT BY</h2>
-                                    <img class="w-5 my-1 h-5 items-center justify-center mx-auto text-center"
+                                <div class="row-span-1 bg-white border-8 border-black p-2">
+                                    <h2 class="font-mulish font-blacker text-xl">BUILT BY</h2>
+                                    <img class="w-12 my-1 h-12 items-center justify-center mx-auto text-center"
                                         src="../assets/circle.svg" alt="circle icon">
                                     <h3 class="font-jakarta-plus-sans font-black text-xl">HELPJUICE</h3>
                                 </div>
                                 <div
-                                    class="col-span-2 bg-white p-3 border-8 border-t-0 border-black font-black text-base">
+                                    class="col-span-2 bg-white p-3 border-8 border-t-0 border-black font-semibold whitespace-nowrap text-base">
                                     #1 Rated Knowledge Base Software
                                 </div>
-
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -440,73 +531,76 @@ mb-4">Common Questions</h2>
             </section>
             <!-- Middle Footer Section -->
             <section
-                class="grid place-items-end gap-10 xl:gap-20 items-baseline lg:-mt-[3rem]  max-w-[30rem] grid-cols-2 mt-40 content-center mb-20 font-mulish">
-                <ul class="flex-col justify-between items-center font-open-sans space-y-4">
+                class="grid place-items-baseline gap-10 justify-items-center lg:gap-20 items-baseline lg:-translate-y-3  lg:-mt-0 max-w-[30rem] grid-cols-2 mt-40 content-center mb-12 font-mulish">
+                <ul class="flex-col justify-between items-center font-mulish space-y-4">
                     <li>
-                        <a class="text-black font-bold text-2xl hover:text-gray-900 transition duration-300 hover:underline whitespace-nowrap"
+                        <a class="text-black font-bold text-[22px] leading-7 hover:text-gray-900 transition duration-300 hover:underline whitespace-nowrap"
                             href="#">Learn more
                         </a>
                     </li>
                     <li>
-                        <a class="text-gray-600 hover:text-gray-900 transition duration-300 hover:underline"
+                        <a class="text-[18px] leading-6 text-[#0D0D0D] hover:text-gray-900 transition duration-300 hover:underline"
                             href="#">Wizardshot
                         </a>
                     </li>
                     <li>
-                        <a class="text-gray-600 hover:text-gray-900 transition duration-300 hover:underline"
+                        <a class="text-[18px] leading-6 text-[#0D0D0D] hover:text-gray-900 transition duration-300 hover:underline"
                             href="#">About
                         </a>
                     </li>
                     <li>
-                        <a class="text-gray-600 hover:text-gray-900 transition duration-300 hover:underline" href="#">
+                        <a class="text-[18px] leading-6 text-[#0D0D0D] hover:text-gray-900 transition duration-300 hover:underline"
+                            href="#">
                             Community Page
                         </a>
                     </li>
                     <li>
-                        <a class="text-gray-600 hover:text-gray-900 transition duration-300 hover:underline" href="#">
+                        <a class="text-[18px] leading-6 text-[#0D0D0D] hover:text-gray-900 transition duration-300 hover:underline"
+                            href="#">
                             Help Center
                         </a>
                     </li>
                     <li>
-                        <a class="text-gray-600 hover:text-gray-900 transition duration-300 hover:underline" href="#">
+                        <a class="text-[18px] leading-6 text-[#0D0D0D] hover:text-gray-900 transition duration-300 hover:underline"
+                            href="#">
                             Security Information
                         </a>
                     </li>
                 </ul>
-                <ul class="flex-col justify-between items-center font-open-sans space-y-4">
+                <ul class="flex-col justify-between items-center space-y-4">
                     <li>
-                        <a class="text-black font-bold text-2xl hover:text-gray-900 transition duration-300 hover:underline"
+                        <a class="text-black font-bold text-[22px] leading-7 hover:text-gray-900 transition duration-300 hover:underline"
                             href="#">Company
                         </a>
                     </li>
                     <li>
-                        <a class="text-gray-600 hover:text-gray-900 transition duration-300 hover:underline"
+                        <a class="text-[18px] leading-6 text-[#0D0D0D] hover:text-gray-900 transition duration-300 hover:underline"
                             href="#">About
 
                         </a>
                     </li>
                     <li>
-                        <a class="text-gray-600 hover:text-gray-900 transition duration-300 hover:underline"
+                        <a class="text-[18px] leading-6 text-[#0D0D0D] hover:text-gray-900 transition duration-300 hover:underline"
                             href="#">Status
                             Page
                         </a>
                 </ul>
             </section>
             <!-- Lower Footer Section -->
-            <section class="flex-col -mt-10 xl:pr-0">
-                <div class="xl:flex flex-col-reverse">
+            <section class="flex flex-col">
+                <div class="lg:flex lg:flex-col-reverse">
                     <div class="">
                         <!-- Social Icons -->
-                        <div class="flex gap-4 mb-6 lg:flex-row-reverse py-4">
-                            <img class="xl:order-2" src="../assets/tiktok.svg" alt="tiktok icon"></img>
+                        <div class="flex gap-4 my-6 lg:mb-12 lg:mt-0 lg:justify-end lg:translate-y-1">
+                            <img src="../assets/tiktok.svg" alt="tiktok icon"></img>
                             <img src="../assets/instagram.svg" alt="instagram icon"></img>
                         </div>
                         <!-- Login Signup -->
-                        <div class="flex gap-4 mb-10 pl-12 lg:flex-row-reverse">
-                            <a href="#" class="cursor-pointer font-bold font-mulish text-2xl">
+                        <div class="flex gap-6 pb-12 mb-10 lg:flex-row-reverse border-b-2 lg:border-b-0">
+                            <a href="#" class="cursor-pointer font-bold font-mulish text-[22px] leading-7">
                                 Login
                             </a>
-                            <a href="#" class="cursor-pointer font-bold font-mulish text-2xl">
+                            <a href="#" class="cursor-pointer font-bold font-mulish text-[22px] leading-7">
                                 Sign Up
                             </a>
                         </div>
@@ -514,19 +608,16 @@ mb-4">Common Questions</h2>
 
                     <!-- Contact -->
                     <div>
-                        <div class="border-gray-200 border flex w-full md:hidden"></div>
-                        <div class="flex items-center justify-center pl-16 w-full">
-                            <div class="flex flex-col text-sm w-full lg:items-end items-center mx-auto xl:justify-end">
-                                <div class="font-mulish text-sm font-medium">📞 +1 (833) 387 3877</div>
-                                <div class="font-mulish text-sm font-medium">✉️ success@wizardshot.com</div>
-                            </div>
+                        <div class="flex flex-col text-sm w-full lg:items-end items-center mx-auto lg:-translate-y-3">
+                            <div class="font-mulish text-sm font-medium">📞 +1 (833) 387 3877</div>
+                            <div class="font-mulish text-sm font-medium">✉️ success@wizardshot.com</div>
                         </div>
                     </div>
                 </div>
             </section>
         </div>
         <p
-            class="text-[#98A2B3] font-inter text-base flex items-center justify-center pb-14 pl-16 xl:pl-0 whitespace-nowrap xl:order-2">
+            class="text-[#98A2B3] font-inter text-base flex items-center justify-center pb-14 whitespace-nowrap lg:order-2">
             © 2024 Wizardshot – All rights reserved.
         </p>
     </footer>
