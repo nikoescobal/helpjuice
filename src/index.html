@@ -301,10 +301,10 @@
                 <img class="-top-11 right-3 absolute" src="../assets/rainbow-arrow.svg" alt="rainbow arrow">
                 <div class="relative group">
                     <div
-                        class="absolute w-[20.5rem] mx-auto -inset-3 bg-gradient-to-r from-green-300 via-purple-500 to-yellow-200 rounded-lg blur opacity-55 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt">
+                        class="absolute w-80 lg:w-96 mx-auto -inset-3 bg-gradient-to-r from-green-300 via-purple-500 to-yellow-200 rounded-lg blur opacity-55 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt">
                     </div>
                     <a href="#"
-                        class="relative bg-black hover:bg-opacity-90 text-2xl cursor-pointer group-hover:text-yellow-500 transition duration-200 rounded-xl text-white p-6 inline-flex items-center font-mulish justify-center gap-2">
+                        class="relative bg-black hover:bg-opacity-90 text-2xl lg:text-[2rem] lg:leading-10 cursor-pointer group-hover:text-yellow-500 transition duration-200 rounded-xl text-white p-[27px] inline-flex items-center font-mulish justify-center gap-2">
                         <img src="../assets/chrome-icon.svg" alt=""
                             class="self-center w-8 h-8 text-2xl rounded-full mx-1 mr-2" />
                         Install Wizardshot
@@ -323,93 +323,100 @@
 
         <!-- FAQ Accordion Section built with just Tailwind and HTML since the goal was to use Tailwind I thought I might as well :D -->
         <section class="flex flex-col items-center justify-center mt-20 mb-[4.25rem]">
-            <h2 class="font-plus-jakarta-sans text-3xl font-extrabold mb-4">Common Questions</h2>
+            <h2 class="font-plus-jakarta-sans text-[2rem] leading-10 font-extrabold mb-4">Common Questions</h2>
             <div class="relative max-w-[800px] space-y-4 w-full mx-auto">
                 <input type="checkbox" class="absolute peer opacity-0" id="input0">
                 <label for="input0"
-                    class="max-h-full p-2 mx-8 font-inter font-medium text-base flex items-center cursor-pointer transition-colors duration-300 peer-checked:font-extrabold">What
-                    is Wizardshot?</label>
-                <div class="absolute top-3 right-10 rotate-0 peer-checked:rotate-180 duration-200 pointer-events-none">
-                    <svg class="rotate-0 peer-checked:rotate-180 transition-transform duration-200 ease-in-out peer-checked:font-extrabold"
+                    class="max-h-full w-full py-2 ml-7 font-inter font-medium text-base flex items-center cursor-pointer transition-colors duration-300 peer-checked:font-bold">
+                    What is Wizardshot?</label>
+                <div class="absolute top-3 right-6 rotate-0 peer-checked:rotate-180 duration-200 pointer-events-none">
+                    <svg class="rotate-0 peer-checked:rotate-180 transition-transform duration-200 ease-in-out peer-checked:font-bold"
                         width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <svg class="rotate-0 peer-checked:font-extrabold peer-checked:rotate-180 transform duration-500 pointer-events-none "
+                        <svg class="rotate-0 peer-checked:font-bold peer-checked:rotate-180 transform duration-500 pointer-events-none "
                             width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M12 10L8 6L4 10" stroke="#0F172A" stroke-width="1.33333" stroke-linecap="round"
                                 stroke-linejoin="round" />
                         </svg>
                 </div>
                 <div
-                    class="max-h-0 overflow-hidden transition-max-height duration-200 ease-in-out peer-checked:max-h-[400px] border-t border-gray-200">
-                    <p class="pt-8 pb-4 px-[40px] text-sm">Wizardshot is a web app & chrome extension that allows you to
-                        create step-by-step tutorials simply by capturing your screen.
+                    class="max-h-0 overflow-hidden mx-7 transition-max-height duration-200 ease-in-out peer-checked:max-h-[400px] border-b border-gray-200">
+                    <p class="pb-4 text-sm">
+                        Wizardshot is a web app & chrome extension that allows you to create step-by-step tutorials
+                        simply by capturing your screen.
                     </p>
                 </div>
             </div>
+            <div class="relative max-w-[800px] space-y-4 w-full mx-auto">
+                <input type="checkbox" class="absolute peer opacity-0" id="input1">
+                <label for="input1"
+                    class="max-h-full w-full py-2 ml-7 font-inter font-medium text-base flex items-center cursor-pointer transition-colors duration-300 peer-checked:font-bold">
+                    How is Wizardshot Free?</label>
+                <div class="absolute top-3 right-6 rotate-0 peer-checked:rotate-180 duration-200 pointer-events-none">
+                    <svg class="rotate-0 peer-checked:rotate-180 transition-transform duration-200 ease-in-out peer-checked:font-bold"
+                        width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="rotate-0 peer-checked:font-bold peer-checked:rotate-180 transform duration-500 pointer-events-none "
+                            width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 10L8 6L4 10" stroke="#0F172A" stroke-width="1.33333" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                </div>
+                <div
+                    class="max-h-0 overflow-hidden mx-7 transition-max-height duration-200 ease-in-out peer-checked:max-h-[400px] border-b border-gray-200">
+                    <p class="pb-4 text-sm">The costs to run a service is really inexpensive as most of the
+                        processing happens in the Chrome extension.
+                        <br>
+                        <br>
+
+                        Really - all that we have to pay for is <u>super-secure hosting</u>, <u>awesome 24/7
+                            support</u>, and that’s
+                        it.
+                        <br>
+                        <br>
+                        <span class="font-semibold">
+                            We built Wizardshot as a stand-alone product with a deep <u>Helpjuice Knowledge
+                                Base</u> integration.
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="relative max-w-[800px] space-y-4 w-full mx-auto">
+                <input type="checkbox" class="absolute peer opacity-0" id="input2">
+                <label for="input2"
+                    class="max-h-full w-full py-2 ml-7 font-inter font-medium text-base flex items-center cursor-pointer transition-colors duration-300 peer-checked:font-bold">
+                    Is my data secure?</label>
+                <div class="absolute top-3 right-6 rotate-0 peer-checked:rotate-180 duration-200 pointer-events-none">
+                    <svg class="rotate-0 peer-checked:rotate-180 transition-transform duration-200 ease-in-out peer-checked:font-bold"
+                        width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="rotate-0 peer-checked:font-bold peer-checked:rotate-180 transform duration-500 pointer-events-none "
+                            width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 10L8 6L4 10" stroke="#0F172A" stroke-width="1.33333" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                </div>
+                <div
+                    class="max-h-0 overflow-hidden mx-7 transition-max-height duration-200 ease-in-out peer-checked:max-h-[400px] border-b border-gray-200">
+                    <p class="pb-4 text-sm">
+                        Yes, it's 100% secure as we don't store any data on our servers.
+                    </p>
+                </div>
+                <div
+                    class="font-mulish font-bold items-center text-sm justify-center md:justify-between mx-7 pt-5 max-w-[800px] flex flex-col md:flex-row">
+                    <div class="pb-2">Curious To Learn More?</div>
+                    <a href="#"
+                        class="bg-black hover:bg-opacity-90 hover:text-yellow-500 transition duration-500 rounded-xl text-white py-2.5 px-6 cursor-pointer">
+                        Visit Help & Community Center
+                    </a>
+                </div>
+            </div>
+
+
             </div>
             <div>
-                <div class="relative max-w-[800px] space-y-4 w-full mx-auto">
-                    <input type="checkbox" class="absolute peer opacity-0" id="input1">
-                    <label for="input1"
-                        class="max-h-full p-2 mx-8 font-inter font-medium text-base flex items-center cursor-pointer transition-colors duration-300 peer-checked:font-extrabold">How
-                        is Wizardshot Free?</label>
-                    <div
-                        class="absolute top-3 right-10 rotate-0 peer-checked:rotate-180 duration-200 pointer-events-none">
-                        <svg class="rotate-0 peer-checked:rotate-180 transition-transform duration-200 ease-in-out peer-checked:font-extrabold"
-                            width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <svg class="rotate-0 peer-checked:font-extrabold peer-checked:rotate-180 transform duration-500 pointer-events-none "
-                                width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12 10L8 6L4 10" stroke="#0F172A" stroke-width="1.33333" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
-                    </div>
-                    <div
-                        class="max-h-0 overflow-hidden transition-max-height duration-200 ease-in-out peer-checked:max-h-[400px]  border-t border-gray-200">
-                        <p class="pt-8 pb-4 px-[40px] text-sm">The costs to run a service is really inexpensive as most
-                            of
-                            the
-                            processing happens in the Chrome extension.
-                        </p>
-                        <p class="pt-8 pb-4 px-[40px] text-sm">Really - all that we have to pay for is super-secure
-                            hosting,
-                            awesome 24/7 support and that’s it.
-                        </p>
-                    </div>
-                </div>
 
-                <div class="relative max-w-[800px] space-y-4 w-full mx-auto">
-                    <input type="checkbox" class="absolute peer opacity-0" id="input2">
-                    <label for="input2"
-                        class="max-h-full p-2 mx-8 font-inter font-medium text-base flex items-center cursor-pointer transition-colors duration-300 peer-checked:font-extrabold">Is
-                        my data secure?</label>
-                    <div
-                        class="absolute top-3 right-10 rotate-0 peer-checked:rotate-180 duration-200 pointer-events-none">
-                        <svg class="rotate-0 peer-checked:rotate-180 transition-transform duration-200 ease-in-out peer-checked:font-extrabold"
-                            width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <svg class="rotate-0 peer-checked:font-extrabold peer-checked:rotate-180 transform duration-500 pointer-events-none "
-                                width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12 10L8 6L4 10" stroke="#0F172A" stroke-width="1.33333" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
-                    </div>
-                    <div
-                        class="max-h-0 overflow-hidden transition-max-height duration-200 ease-in-out peer-checked:max-h-[400px] border-t border-gray-200">
-                        <p class="pt-8 px-[40px] text-sm">It's 100% secure.
-                        </p>
-                    </div>
-                    <div
-                        class="items-center justify-center lg:justify-between md:justify-around pt-5 max-w-[800px] mx-auto flex flex-col md:flex-row">
-                        <div class="font-mulish text-sm font-bold pb-2">Curious To Learn More?</div>
-                        <a href="#"
-                            class="bg-black hover:bg-opacity-90 hover:text-yellow-500 transition duration-500 rounded-xl text-white py-3 px-5 inline-flex items-center max-w-72 min-w-64 whitespace-nowrap justify-center font-mulish font-bold cursor-pointer">
-                            Visit Help & Community Center
-                        </a>
-                    </div>
-                </div>
+
         </section>
         <section class="w-full relative xl:max-w-screen-2xl mx-auto mb-24">
-            <div class="border-2 flex absolute bottom-0  w-full border-black xl:max-w-[1620px] mx-auto">
+            <div class="border-2 flex absolute bottom-0 w-full border-black xl:max-w-[1620px] mx-auto">
             </div>
 
             <div class="px-6">
