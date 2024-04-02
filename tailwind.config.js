@@ -55,6 +55,9 @@ module.exports = {
           'sans-serif',
         ],
       },
+      fontWeight: {
+        blacker: '950',
+      },
     },
   },
   plugins: [
