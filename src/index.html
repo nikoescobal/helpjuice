@@ -9,9 +9,9 @@
 
 <body class="wrapper overflow-x-hidden">
     <!-- header -->
-    <header class="xl:px-6">
-        <div class="xl:max-w-screen-2xl max-w-6xl xl:px-28 xl:py-12 mx-auto">
-            <div class="flex justify-between items-center py-5 px-6">
+    <header class="w-full max-w-[1512px] mx-auto">
+        <div class="xl:max-w-screen-2xl max-w-6xl xl:pt-12 mx-auto px-6 xl:px-[7.25rem]">
+            <div class="flex justify-between items-center py-5 lg:py-0">
                 <!-- logo -->
                 <div>
                     <a class="flex" href="#">
@@ -97,11 +97,11 @@
             </div>
     </header>
 
-    <main class="px-6">
+    <main class="w-full max-w-[1512px] mx-auto">
         <!-- hero content goes here -->
-        <section class="py-16 text-wrap justify-center text-center flex-col">
+        <section class="py-16 text-wrap justify-center text-center flex-col px-6">
             <h1
-                class="font-plus-jakarta-sans font-extrabold px-2 text-[2.5rem] mx-auto leading-tight lg:max-w-[50rem] lg:leading-tight lg:text-6xl">
+                class="font-plus-jakarta-sans font-extrabold text-[2.5rem] mx-auto leading-tight lg:max-w-[50rem] lg:leading-tight lg:text-6xl">
                 Your Magic Wand for Instant Documentation
             </h1>
             <p
@@ -136,7 +136,7 @@
         </section>
 
         <!-- mid section -->
-        <section class="flex-col justify-center lg:px-20 mx-auto mt-5">
+        <section class="flex-col justify-center lg:px-20 mx-auto mt-5 px-6">
             <h2 class="font-plus-jakarta-sans font-extrabold text-center text-3xl text-wrap mx-auto max-w-[38rem]">Say
                 <span class="underline">Goodbye</span>
                 <span class="underline underline-offset-[5px]">
@@ -258,13 +258,13 @@
             </div>
         </section>
         <!-- Call to Action section  -->
-        <section class="flex flex-col text-center justify-center lg:my-40 items-center">
+        <section class="flex flex-col text-center justify-center lg:my-40 items-center px-6">
             <mark
-                class="flex h-3.5 lg:h-8 gap-2 md:gap-3 lg:gap-6 custom-gradient text-gray-900 mt-12 mb-16 w-full max-w-[374.5px] mx-auto justify-center">
+                class="flex h-3.5 lg:h-8 gap-2 md:gap-3 lg:gap-6 custom-gradient text-gray-900 mt-12 mb-16 w-full max-w-[374.5px] lg:max-w-[626px] mx-auto justify-center">
 
                 <div class="flex items-center lg:gap-[2px] tracking-tight md:tracking-normal space-x-3 md:space-x-2">
                     <h3
-                        class="-translate-y-0.5 -translate-x-[8px] underline underline-offset-[6px] decoration-1 lg:decoration-2 font-plus-jakarta-sans text-[21px] leading-7 lg:text-[40px]">
+                        class="-translate-y-0.5 lg:-translate-y-[6.5px] -translate-x-[8px] lg:-translate-x-[10px] underline underline-offset-[6px] decoration-1 lg:decoration-2 font-plus-jakarta-sans text-[21px] leading-7 lg:text-[40px]">
                         Free
                     </h3>
                     <div class="flex-col -translate-y-0.5 -translate-x-3 text-left leading-3 text-[8px]">
@@ -322,7 +322,7 @@
         </section>
 
         <!-- FAQ Accordion Section built with just Tailwind and HTML since the goal was to use Tailwind I thought I might as well :D -->
-        <section class="flex flex-col items-center justify-center mt-20 mb-[4.25rem]">
+        <section class="flex flex-col items-center justify-center mt-20 mb-[4.25rem] px-6">
             <h2 class="font-plus-jakarta-sans text-[2rem] leading-10 font-extrabold mb-4">Common Questions</h2>
             <div class="relative max-w-[800px] space-y-4 w-full mx-auto">
                 <input type="checkbox" class="absolute peer opacity-0" id="input0">
@@ -408,37 +408,61 @@
                     </a>
                 </div>
             </div>
-
-
             </div>
             <div>
-
-
         </section>
-        <section class="w-full relative xl:max-w-screen-2xl mx-auto mb-24">
-            <div class="border-2 flex absolute bottom-0 w-full border-black xl:max-w-[1620px] mx-auto">
-            </div>
 
-            <div class="px-6">
-                <div class="font-alphabetized-cassette-tapes text-base text-right pb-1">100% free,
+        <section class="w-full relative xl:max-w-screen-2xl mx-auto mb-24 px-6">
+            <div class="xl:max-w-[1136px] mx-auto">
+                <div class="font-alphabetized-cassette-tapes text-base text-right pb-1 pr-2.5">100% free,
                     forever 🤑
                 </div>
-                <div class="text-white">
-                    <div class="mb-10 flex-col rounded-t-2xl py-8 px-12 bg-black  mx-auto justify-center items-center">
-                        <h2 class="font-mulish text-2xl font-medium">Create Tutorials in 3 Clicks.</h2>
-                        <p class="text-[#F9FAFB] pt-2.5 pb-6">
-                            With WizardShot, You Click Capture, And We’ll Capture What’s Happening on Your Screen And
-                            Turn It Into A Tutorial.</p>
+                <div class="text-[#F9FAFB]">
+                    <div
+                        class="lg:flex lg:flex-row items-center h-full max-h-[215px] bg-black rounded-t-lg py-8 px-4 lg:px-12 mx-auto xl:max-w-[1136px] font-mulish ">
+
+                        <div class="flex flex-col">
+                            <h2 class="text-2xl font-medium whitespace-nowrap">Create Tutorials in 3 Clicks.
+                            </h2>
+                            <p class="text-sm pt-2.5 opacity-60">
+                                With WizardShot, You Click Capture, And We’ll Capture What’s Happening on Your Screen
+                                And
+                                Turn It Into A Tutorial.
+                            </p>
+                        </div>
+                        <a href="#"
+                            class="relative w-full my-6 text-white text-xl flex items-center gap-2 justify-end underline underline-offset-4">
+                            Try Wizardshot
+                            <img class="w-[15px] h-2" src="../assets/white-arrow.svg" alt="white arrow">
+                            <div
+                                class="absolute -top-2 lg:-top-3 right-36 w-6 h-16 lg:w-10 lg:h-12 bg-[#44FF9A] rounded-full opacity-75 filter blur-2xl  animate-tilt">
+                            </div>
+                            <div
+                                class="absolute -top-2 lg:-top-3 right-24 w-6 h-16 lg:w-10 lg:h-12 bg-[#44B0FF] rounded-full opacity-75 filter blur-2xl  animate-tilt">
+                            </div>
+                            <div
+                                class="absolute -top-2 lg:-top-3 right-16 w-6 h-16 lg:w-10 lg:h-12 bg-[#8B44FF] rounded-full opacity-75 filter blur-2xl  animate-tilt animation-delay-4000">
+                            </div>
+                            <div
+                                class="absolute -top-2 lg:-top-3 right-10 w-6 h-16 lg:w-10 lg:h-12 bg-[#FF6644] rounded-full opacity-75 filter blur-2xl  animate-tilt animation-delay-2000">
+                            </div>
+                            <div
+                                class="absolute -top-2 lg:-top-3 right-4 w-6 h-16 lg:w-10 lg:h-12 bg-[#EBFF70] rounded-full opacity-75 filter blur-2xl  animate-tilt animation-delay-4000">
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
 
         </section>
+        <div
+            class="xl:border-[3px] border rounded-b-3xl relative bottom-24 mx-1.5 flex border-black xl:max-w-[1250px] lg:mx-auto">
+        </div>
     </main>
     <!-- Section before footer -->
 
 
-    <footer class="px-12 flex flex-col justify-center">
+    <footer class="w-full max-w-[1512px] mx-auto hidden lg:flex flex-col justify-center">
         <div class="gap-10 xl:gap-20 grid lg:flex justify-around mb-20 place-items-center items-baseline">
             <!-- Upper Footer Section -->
             <section class="relative">
