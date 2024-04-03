@@ -59,6 +59,8 @@ module.exports = {
         blacker: '950',
       },
       screens: {
+        xxs: '320px',
+        xs: '424px',
         xxl: '1350px',
       },
     },
