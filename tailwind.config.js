@@ -63,6 +63,9 @@ module.exports = {
       },
     },
   },
+  variants: {
+    fill: ['hover', 'focus'],
+  },
   plugins: [
     function ({ addUtilities }) {
       const newUtilities = {
