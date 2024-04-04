@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       scale: {
         '.42': '.42',
+        '.80': '.80',
       },
       animation: {
         blob: 'blob 7s infinite',
